@@ -15,6 +15,9 @@
     "stats:prod": "rimraf build && cross-env NODE_ENV=production webpack --json --mode=production --progress --config webpack/dist.config.js >stats.prod.json",
     "test": "npm run lint"
   },
+  "scripts": {
+    "build": "react-scripts build"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:skybrush-io/live.git"
